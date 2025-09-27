@@ -10,6 +10,22 @@ O analisador léxico é responsável por:
 - Gerar uma tabela de símbolos com informações sobre cada token
 - Rastrear o caminho de estados percorrido durante o processamento
 
+### 🐉 Linguagem Dovahzul
+
+Este projeto utiliza **Dovahzul** (também conhecida como *Dragon Language*), a linguagem fictícia dos dragões do universo de **The Elder Scrolls V: Skyrim**. O Dovahzul foi criado pela Bethesda Game Studios e possui:
+
+- Um alfabeto próprio baseado em runas dracônicas
+- Gramática e estrutura linguística únicas
+- Palavras de poder (*Thu'um*) utilizadas no jogo
+
+As palavras de teste no código representam termos em Dovahzul, como:
+- **FUS ROH DAH** - O famoso *Thu'um* "Força Implacável" (*Unrelenting Force*)
+- **KEL** - "Elder" (Ancião)
+- **HON** - "Hear" (Ouvir)
+
+> **Referência**: *The Elder Scrolls V: Skyrim* - Bethesda Game Studios (2011)  
+> **Fonte da linguagem**: [The Unofficial Elder Scrolls Pages (UESP)](https://en.uesp.net/wiki/Lore:Dragon_Language)
+
 ## 🏗️ Estrutura do Projeto
 
 ```
@@ -56,15 +72,17 @@ O analisador processa strings com o seguinte formato:
 
 ### Exemplos de Teste
 
-O arquivo `main.py` contém exemplos de teste:
+O arquivo `main.py` contém exemplos de teste em **Dovahzul**:
 ```python
 nova_sequencia_testes = [
-    "KO KEL # LOS",
-    "# FAH # HIM # JUN #",
-    " FOD # FUS # HON # NUST AAN ANRK",
-    "FUS ROH DAH"
+    "KO KEL # LOS",           # Palavras dracônicas
+    "# FAH # HIM # JUN #",    # Termos separados por linha
+    " FOD # FUS # HON # NUST AAN ANRK",  # Inclui "FUS" (Força)
+    "FUS ROH DAH"             # Thu'um clássico: "Força Implacável"
 ]
 ```
+
+**Curiosidade**: "FUS ROH DAH" é provavelmente o *Thu'um* mais famoso de Skyrim, usado pelo protagonista Dragonborn para empurrar inimigos com força devastadora!
 
 ## 📊 Saída do Programa
 
