@@ -1,5 +1,5 @@
 from collections import deque
-from Compiladores.constants import EPSILON
+from constants import EPSILON
 class AP:
     def __init__(self,  Sigma, gama, delta, q0, F):
         self._Sigma = Sigma
