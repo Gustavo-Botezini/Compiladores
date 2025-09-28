@@ -1,6 +1,6 @@
-from pda import AP
-from constants import EPSILON
-from delta import DeltaFinal
+from Compiladores.pda import AP
+from Compiladores.constants import EPSILON
+from Compiladores.delta import DeltaFinal
 
 # Definição do autômato de pilha
 Q = ['A1,B2,Z', 'Z', 'B7,B8,Z', 'B3,B6,Z',

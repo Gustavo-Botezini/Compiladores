@@ -1,4 +1,4 @@
-from constants import EPSILON
+from Compiladores.constants import EPSILON
 
 DeltaFinal = {
     #S
