@@ -19,12 +19,6 @@ Sigma = ['#', 'K', 'O', 'E',
 		 'M', 'D', 'R', 'T', 
 		 'A', EPSILON]
 
-gama = ['$', 'K', 'O', 'E', 
-		 'L', 'H', 'N', 'J', 
-		 'U', 'F', 'S', 'I', 
-		 'M', 'D', 'R', 'T', 
-		 'A', EPSILON]
-
 delta = DeltaFinal  
 
 F = ['E11,Z', 'D10,Z', 'E12,Z', 'D3,Z', 
@@ -32,7 +26,7 @@ F = ['E11,Z', 'D10,Z', 'E12,Z', 'D3,Z',
 	 'D7,Z', 'D8,Z', 'D2,Z', 'B1,Z']
 
 # Criação do autômato de pilha
-pda = AP( Sigma, gama, delta, 'S', F)
+pda = AP( Sigma, delta, 'S', F)
 
 
 

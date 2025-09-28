@@ -1,9 +1,8 @@
 from collections import deque
 from constants import EPSILON
 class AP:
-    def __init__(self,  Sigma, gama, delta, q0, F):
+    def __init__(self,  Sigma, delta, q0, F):
         self._Sigma = Sigma
-        self._gama = gama
         self._delta = delta
         self._q0 = q0
         self._F = F
